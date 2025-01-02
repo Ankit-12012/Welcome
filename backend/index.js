@@ -10,7 +10,7 @@ const obj = {
   Mark: 83,
 };
 app.get("/api/data", (req, res) => {
-  res.send(obj);
+  res.json(obj);
 });
 app.get("/", (req, res) => {
   res.send("hello Ankit");
@@ -18,4 +18,4 @@ app.get("/", (req, res) => {
 // app.listen(port, () => {
 //   console.log(`Example app listening on port ${port}`);
 // });
-module.exports = app;
+export default app;
