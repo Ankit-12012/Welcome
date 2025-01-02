@@ -6,7 +6,7 @@ const Getdata = () => {
   //   useEffect({});
   //-----------Using async & await -------------
   const getInfo = async () => {
-    const data = await fetch("/api/data");
+    const data = await fetch("https://welcome-eta-five.vercel.app/api/data");
     const newdata = await data.json();
     setobj(newdata);
     console.log(newdata);
