@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 const app = express();
 app.use(cors());
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 const obj = {
   Name: "Ankit",
   Hobby: "Gym",
