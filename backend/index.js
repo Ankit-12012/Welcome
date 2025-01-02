@@ -12,7 +12,9 @@ const obj = {
 app.get("/api/data", (req, res) => {
   res.send(obj);
 });
-
+app.get("/", (req, res) => {
+  res.send("hello Ankit");
+});
 // app.listen(port, () => {
 //   console.log(`Example app listening on port ${port}`);
 // });
