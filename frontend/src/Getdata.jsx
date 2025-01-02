@@ -25,7 +25,7 @@ const Getdata = () => {
   //   };
   return (
     <div>
-      <h1>Hello 🤗</h1>
+      <h1>Hello 🤗 Ankit mallik</h1>
 
       <h2>Name : {obj.Name}</h2>
       <h3>Hobby : {obj.Hobby}</h3>
