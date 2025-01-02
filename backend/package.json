@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "first full-stack project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node index.js"
   },
