@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 const app = express();
 app.use(cors());
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 const obj = {
   Name: "Ankit",
   Hobby: "Gym",
@@ -13,6 +13,7 @@ app.get("/api/data", (req, res) => {
   res.send(obj);
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`);
+// });
+module.exports = app;
